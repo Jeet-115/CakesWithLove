@@ -5,7 +5,7 @@ import viteLogo from "/vite.svg";
 import Home from "./pages/Home";
 // import AllCakesPage from "./pages/AllCakesPage";
 // import AdminLoginPage from "./pages/AdminLoginPage";
-// import AdminDashboardPage from "./pages/AdminDashboardPage";
+import AdminPage from "./pages/AdminPage";
 function App() {
   return (
     <>
@@ -13,8 +13,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           {/* <Route path="/cakes" element={<AllCakesPage />} />
-          <Route path="/admin/login" element={<AdminLoginPage />} />
-          <Route path="/admin/dashboard" element={<AdminDashboardPage />} /> */}
+          <Route path="/admin/login" element={<AdminLoginPage />} /> */}
+          <Route path="/admin/dashboard" element={<AdminPage />} />
         </Routes>
       </Router>
     </>
